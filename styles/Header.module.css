@@ -1,0 +1,34 @@
+.bgColor {
+    background-color: #FFFFFF;
+}
+
+.textColor {
+    color: black;
+}
+
+.menuButton {
+    color: #1A0D7C !important;
+    background-color: #FF7A00 !important;
+    border-radius: 50px !important;
+    width: 150px !important;
+}
+
+.bgButton {
+    background-color: #FF7A00 !important;
+}
+
+.textDecoration {
+    text-decoration: none !important;
+}
+
+.academy {
+    color: #82CAC7;
+}
+
+.textColor {
+    color: black;
+}
+
+.academy {
+    color: #82CAC7;
+}
