@@ -12,7 +12,7 @@ const bindMiddleWare = (middleware) => {
         return composeWithDevTools(applyMiddleware(...middleware));
     }
 
-    return applyMiddleware(middleware);
+    return applyMiddleware(...middleware);
 };
 
 //######################################################################
