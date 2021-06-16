@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { connect } from "react-redux";
+import Head from "next/head";
 import { startGetAllMovies } from "../redux/action";
 
 import { wrapper } from "../redux/store";
@@ -9,6 +10,9 @@ import MovieList from "../components/MovieList";
 const Home = () => {
   return (
       <Fragment>
+          <Head>
+              <title>movieNerds</title>
+          </Head>
         <MovieList />
       </Fragment>
   );

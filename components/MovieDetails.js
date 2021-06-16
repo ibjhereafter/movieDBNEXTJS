@@ -2,7 +2,8 @@ import React, { Fragment, useEffect } from 'react';
 import { connect } from "react-redux";
 
 import Image from "next/image";
-import Link from 'next/link'
+import Link from 'next/link';
+import Head from "next/head";
 
 const MovieDetails = (props) => {
     const { movieDetail } = props;
@@ -78,6 +79,10 @@ const MovieDetails = (props) => {
 
     return (
         <Fragment>
+            <Head>
+                <title>{movieDetail.title}</title>
+            </Head>
+
             {
                 movieDetail.title ? <div className="container">{movieDetails()}</div> : null
             }
